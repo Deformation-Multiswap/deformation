@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Exo';
+  src: local('Exo'), url('./assets/fonts/exo/Exo-VariableFont_wght.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: black;
+  color: white; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
