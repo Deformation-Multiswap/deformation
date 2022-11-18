@@ -208,7 +208,7 @@ const App: React.FC = () => {
       <Modal close={() => setModal(false)} open={modal}>
         <div className="disconnect-modal">
         <div style={{display: 'flex', flexDirection: 'column', flexGrow: 1}}>
-        <span>I understand that CoinSwap is a new swapping platform that routes through Uniswap. I understand that, at this time, selling ERC tokens with taxed tokenomics will cause the tax on said tokens to occur twice, once by CoinSwap, and once by Uniswap.</span>
+        <span>I understand that Deformation is a new swapping platform that routes through Uniswap. I understand that, at this time, selling ERC tokens with taxed tokenomics will cause the tax on said tokens to occur twice, once by Deformation, and once by Uniswap.</span>
         </div>
               <div className="modal-actions">
                   <button onClick={() => setModal(false)} className="disconnect-modal-action">

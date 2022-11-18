@@ -12568,7 +12568,7 @@
     {
       "id": "coinswap-space",
       "symbol": "css",
-      "name": "CoinSwap Space",
+      "name": "Deformation Space",
       "platforms": {
         "binance-smart-chain": "0x3bc5798416c1122bcfd7cb0e055d50061f23850d"
       }

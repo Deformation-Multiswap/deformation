@@ -46,10 +46,12 @@ const Search: React.FC<ISearchProps> = ({ update, eth }) => {
                         <div className="token-list-item" key={item.address} onClick={() => { update(item.name, item.symbol, item.address, item.logo) }}>
                             <div className="token-list-item-brand">
                                 {item.logo && <img src={item.logo} width="24px" alt="token logo" />}
+                                
                                 <div className="token-list-item-name">
                                     <span>{`${item.name} (${item.symbol?.toUpperCase()})`}</span>
                                 </div>
                             </div>
+                            
                             <div className="token-list-item-link">
                                 <a href={`${NetworkExplorers[Number(chain)]}/token/${item.address}`} target="_blank noreferrer"><ExternalLink size="24" /></a>
                             </div>

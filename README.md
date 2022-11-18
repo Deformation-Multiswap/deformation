@@ -1,6 +1,6 @@
-# CoinMerge CoinSwap Client
+# Deformation Client
 
-Code for the front-end of CoinMerge CoinSwap available at https://betaswap.coinmerge.io. Interfaces with the QFinance multiswap router @ 0x8e0c9e7a4b9285a2c671942ece944175a52874a7 on Ethereum, BSC, Polygon, and Avalanche (with more coming soon!).
+Code for the front-end of Deformation available this directory. Interfaces with the QFinance multiswap router @ 0x8e0c9e7a4b9285a2c671942ece944175a52874a7 on Ethereum, BSC, Polygon, and Avalanche (with more coming soon!).
 
 ## Setup local
 

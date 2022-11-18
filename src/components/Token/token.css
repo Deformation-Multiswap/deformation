@@ -5,11 +5,12 @@
     flex-direction: column;
     justify-content: flex-start;
     box-sizing: content-box;
-    max-width: 100%^;
+    max-width: 100%;
     box-shadow: 0 0 8px 2px #b5ceff63;
     margin: 12px 0;
     padding: 12px;
     background: #000;
+    color:white;
 }
 
 .token-content {
@@ -50,6 +51,7 @@
 .token-icon span {
     font-size: 14px;
     text-align: center;
+    color: white;
 }
 
 .token-icon img {
